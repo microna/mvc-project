@@ -39,10 +39,12 @@ if (isset($_POST['submit'])) {
 }
 
 ?>
-
+<?php require_once 'header.php'?>
+<section style="padding-top: 140px">
 <div class="container">
 <h1>Create</h1>
 <?php
 require_once '_form.php';
 ?>
 </div>
+</section>

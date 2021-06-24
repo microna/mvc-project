@@ -38,8 +38,12 @@ if (isset($_COOKIE['alert'])) {
 }
 
 ?>
-
+<?php require_once 'header.php'?>
+<section style="padding-top: 140px">
+    <div class="container">
 <h1>Update</h1>
 <?php
 require_once '_form.php';
 ?>
+    </div>
+</section>

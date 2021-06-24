@@ -16,8 +16,9 @@ for ($i = 0; $i < count($result); $i++) {
 }
 
 ?>
+<?php require_once 'header.php'?>
 <div class="container">
-    <section class="p-5">
+    <section style="padding-top: 140px">
         <h1>Admin panel</h1>
         <div class="wrapper d-flex">
         <div class="mx-5"><a class="btn btn-info text-white" href="/admin/create">Create</a></div>

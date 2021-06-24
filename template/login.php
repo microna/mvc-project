@@ -22,7 +22,8 @@ else {
     echo 'Incorrect creds!';
 }
 ?>
-
+<?php require_once 'header.php'?>
+<section style="padding-top: 140px">
 <div class="container">
 <div class="form-wrapper d-flex justify-content-center">
 <form method="POST">
@@ -32,4 +33,5 @@ else {
 </form>
 </form>
     </div>
+</section>
 

@@ -1,3 +1,4 @@
+<?php require_once 'header.php'?>
 <div class="container">
     <div style="height:100%; display:flex; align-items: center; justify-content: center">
         <div class="">

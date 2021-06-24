@@ -23,7 +23,8 @@ if (isset($_POST['submit'])){
     }
 }
 ?>
-
+<?php require_once 'header.php'?>
+<section style="padding-top: 140px">
 <div class="container">
     <div class="form-wrapper d-flex justify-content-center">
         <form method="POST">
@@ -33,3 +34,4 @@ if (isset($_POST['submit'])){
         </form>
         </form>
     </div>
+</section>
